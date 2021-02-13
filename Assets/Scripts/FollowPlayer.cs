@@ -11,6 +11,9 @@ public class FollowPlayer : MonoBehaviour
     void Start()
     {
         
+        transform.position = new Vector3(transform.position.x, 90f, transform.position.z);
+        zoom = 90f;
+
     }
 
     // Update is called once per frame
